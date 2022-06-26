@@ -1,0 +1,49 @@
+.navbar{
+    display:flex;
+    height: 4rem; 
+    width:100%; 
+    background:grey;
+    margin-top:0rem;
+    color:white;
+}
+
+.sidebar{ 
+    position: absolute;
+    transition: margin-left 0.5s;
+    z-index: 1;
+    display:flex;
+    height:100%; 
+    width:15rem; 
+    background:grey;
+    margin-top:0rem;
+    color:white;
+}
+
+.list{
+    font-size:1.2rem;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: left;
+    column-gap: 1.5rem;
+}
+
+@media screen and (max-width: 550px){
+
+    .list {
+        flex-direction: column;
+        row-gap: 1.5rem;
+        height: auto;
+        font-size:1.2rem;
+    }
+
+    .btn {
+        border: 0px;
+        background-color: grey;
+        font-size: 170%;
+    }
+
+    .btn-icon {
+        color: white;
+        size: 5rem;
+    }
+}
