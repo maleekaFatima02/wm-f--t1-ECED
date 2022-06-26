@@ -1,0 +1,36 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "SF Pro Display";
+}
+.caption{
+  margin-top: 6.25rem;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body{
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+
+}
+
+.card{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px;
+height: 70%;
+width: 100%;
+background: linear-gradient(138.11deg, rgba(0, 0, 0, 0.88) 0%, #8D8D8D 108.18%);
+border-radius: 38px;
+}
+
